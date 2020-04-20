@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 django = "*"
 pytest = "*"
+ipdb = "*"
+coverage = "<5"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.8"
